@@ -1,0 +1,22 @@
+body {
+  background-color: brown;
+  color: bisque;
+  margin: 50% 50%;
+}
+h1 {
+  animation: animate 0.5s infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
