@@ -1,7 +1,7 @@
 body {
   background-color: brown;
   color: bisque;
-  margin: 50% 50%;
+  margin: 25% 25% 25% 25%;
 }
 h1 {
   animation: animate 0.5s infinite;
